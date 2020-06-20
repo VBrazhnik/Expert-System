@@ -1,0 +1,21 @@
+# Rules
+B => A
+D + E => B
+G + H => F
+I + J => G
+G => H
+L + M => K
+O + P => L + N
+N => M
+
+# Initial facts
+=DEIJP
+
+# Queries
+?AFKP
+
+# Expected result
+# A: true
+# F: true
+# K: false
+# P: true

@@ -1,0 +1,12 @@
+# Rules
+A | B + C => E
+(F | G) + H => E
+
+# Initial facts
+=G
+
+# Queries
+?E
+
+# Expected result
+# E: false

@@ -1,0 +1,9 @@
+# Editors & IDEs
+.idea
+.vscode
+
+# Project
+node_modules
+
+# Tests
+.nyc_output

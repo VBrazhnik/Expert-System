@@ -1,0 +1,12 @@
+# Rules
+B => A
+C => A
+
+# Initial facts
+=B
+
+# Queries
+?A
+
+# Expected result
+# A: true
